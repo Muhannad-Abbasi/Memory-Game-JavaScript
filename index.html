@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ce9b8cf5c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="game-title">
+        <i class="fab fa-reddit-alien"></i> UFO MEMORY GAME
+        <i class="fab fa-reddit-alien"></i>
+      </h1>
+      <!------------ MUHANNAD'S DEL PÅBÖRJAR ------------>
+      <div class="info-container">
+        <div class="name">
+          <span>Hello:</span> <span class="playerName"></span>
+        </div>
+
+        <div class="player-moves">
+          <span>Move(s):</span> <span class="moves">0</span>
+        </div>
+
+        <div class="timer">
+          <span>Time: </span><span class="clock">0:00</span>
+        </div>
+
+        <div class="control-button">
+          <button>Start Game</button>
+        </div>
+      </div>
+      <!------------ MUHANNAD'S DEL SLUTAR ------------>
+      <section class="memory-game"></section>
+      <div class="restart">
+        <button class="reset-all">Restart <i class="fas fa-undo"></i></button>
+      </div>
+    </div>
+
+    <script src="/JS/prototype.js"></script>
+    <script src="/JS/app.js"></script>
+  </body>
+</html>
