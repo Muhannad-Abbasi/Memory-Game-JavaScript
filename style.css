@@ -71,17 +71,6 @@ body {
   transform: rotateY(180deg);
 }
 
-/************* MUHANNAD'S DEL PÅBÖRJAR ************/
-
-/* @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap"); */
-
-/* body {
-  height: 100%;
-  display: flex;
-  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-  font-family: "Sansita Swashed", cursive;
-} */
-
 .info-container {
   /*  width: 360px;
   height: 400px;
@@ -169,5 +158,3 @@ body {
 
   /* font-family: "Sansita Swashed", cursive; */
 }
-
-/************* MUHANNAD'S DEL SLUTAR ************/

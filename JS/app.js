@@ -127,8 +127,6 @@ function resetBoard() {
 //som vänder kortet
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
-/************* MUHANNAD'S DEL PÅBÖRJAR **************/
-
 // Skapa en kod som frågar spelarens namn och visar den, om spelaren inte skrev namnet så visas ett namn som "Unknown"
 
 document.querySelector(".control-button button").onclick = function () {
@@ -342,5 +340,3 @@ function resetScore() {
 }
 
 /************* SCORE FUNCTIONS END **************/
-
-/************* MUHANNAD'S DEL SLUTAR **************/
